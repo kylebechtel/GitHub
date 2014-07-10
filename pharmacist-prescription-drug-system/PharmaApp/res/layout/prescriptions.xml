@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Prescriptions" >
+
+    <TextView
+        android:id="@+id/header"
+        android:text="Prescription Order Dates"
+        android:textSize="42px"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <ListView
+        android:id="@android:id/list"
+        android:layout_below="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+
+</RelativeLayout>

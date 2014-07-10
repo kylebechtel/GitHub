@@ -1,0 +1,155 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.test.Displayprescription$PlaceholderFragment" 
+    android:orientation="vertical">
+
+    <!--
+     todo::
+			create the damn id tags in manifest
+			
+			hide the views when the button isnt clicked
+				use android:visible="gone" and set methods
+    -->
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.94"
+        android:text="TextView" />
+
+</LinearLayout>
+    
+    <Button
+        android:id="@+id/prescriptionbutton"
+        android:layout_width="290dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:text="Pharmacist"
+        android:onClick="prescription" />
+
+	<LinearLayout
+	    android:id="@+id/prescriptionlayout"
+	    android:layout_width="289dp"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" 
+	    android:visibility="gone">
+
+	    <CheckBox
+	        android:id="@+id/newprescription"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="New" />
+
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_weight="0.86"
+	        android:textAlignment="center"
+	        android:hint="Name" />
+
+	    <Button
+	        android:id="@+id/searchprescription"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Search" />
+	</LinearLayout>
+	
+	 <Button
+        android:id="@+id/patient"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="Patient" />
+	 
+		<LinearLayout
+	    android:id="@+id/patientlayout"
+	    android:layout_width="289dp"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:onClick="patientlayout" 
+	    android:visibility="gone">
+
+	    <CheckBox
+	        android:id="@+id/newpatient"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="New" />
+
+	    <TextView
+	        android:id="@+id/patientname"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_weight="0.86"
+	        android:textAlignment="center"
+	        android:text="Name" />
+
+	    <Button
+	        android:id="@+id/searchpatient"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Search" />
+	</LinearLayout>
+	
+		 <Button
+        android:id="@+id/Drug"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="Drug" />
+	 
+		<LinearLayout
+	    android:id="@+id/druglayout"
+	    android:layout_width="289dp"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" 
+	    android:onClick="druglayout"
+	    android:visibility="gone">
+
+	    <CheckBox
+	        android:id="@+id/newdrug"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="New" />
+
+	    <TextView
+	        android:id="@+id/drugname"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_weight="0.86"
+	        android:textAlignment="center"
+	        android:text="Name" />
+
+	    <Button
+	        android:id="@+id/searchdrug"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Search" />
+	</LinearLayout>
+	
+
+		<Button
+        android:id="@+id/Insurance"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="Insurance" />
+				 
+		<Button
+        android:id="@+id/Pharmacist"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="Pharmacist" />
+</LinearLayout>

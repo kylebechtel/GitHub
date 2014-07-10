@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HueHueBakersDozenSolitaire", "HueHueBakersDozenSolitaire\HueHueBakersDozenSolitaire\HueHueBakersDozenSolitaire.csproj", "{71B1A11C-3E9E-4F9E-8B29-8456F5AF6E29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HueHueBakersDozenSolitaireContent", "HueHueBakersDozenSolitaire\HueHueBakersDozenSolitaireContent\HueHueBakersDozenSolitaireContent.contentproj", "{5B3FC31F-5707-4644-87BE-2D5CF72370D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71B1A11C-3E9E-4F9E-8B29-8456F5AF6E29}.Debug|x86.ActiveCfg = Debug|x86
+		{71B1A11C-3E9E-4F9E-8B29-8456F5AF6E29}.Debug|x86.Build.0 = Debug|x86
+		{71B1A11C-3E9E-4F9E-8B29-8456F5AF6E29}.Release|x86.ActiveCfg = Release|x86
+		{71B1A11C-3E9E-4F9E-8B29-8456F5AF6E29}.Release|x86.Build.0 = Release|x86
+		{5B3FC31F-5707-4644-87BE-2D5CF72370D7}.Debug|x86.ActiveCfg = Debug|x86
+		{5B3FC31F-5707-4644-87BE-2D5CF72370D7}.Debug|x86.Build.0 = Debug|x86
+		{5B3FC31F-5707-4644-87BE-2D5CF72370D7}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

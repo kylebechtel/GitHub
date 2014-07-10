@@ -1,0 +1,5 @@
+bin/
+gen/
+.metadata/
+.Thumbs.db
+.DS_Store
